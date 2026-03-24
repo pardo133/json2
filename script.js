@@ -15,10 +15,7 @@ const actualizarNave = () => {
 };
 
 
-document.getElementById("btn-red").onclick = () => {
-    colorEstado.r = Math.floor(Math.random() * 256);
-    actualizarNave(); 
-};
+
 
 
 document.getElementById("btn-green").onclick = () => {
